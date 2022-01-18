@@ -1,1 +1,25 @@
 Learning Git
+
+1. Installing Git
+      brew install git
+2.Create account in github.com
+3. generate ssh key in 
+    $ ssh-keygen -t ed25519 -C "your_email@example.com"
+3.1. Copy ssh key in mac pbcopy < ~/.ssh/id_rsa.pub
+4. Add ssh key in github.com
+    under account -> setting->ssh and GPG keys->new ssh key->paste new key
+5.Create a folder in local path
+    5.1 . Initiate the git repositiory git init 
+6.Create repositiory in github
+7.map the local folder to remote repositiory
+    7.1. git remote add origin https://github.com/BharathySekar/Git-Learning.git
+8. make code changes
+9.add changed file
+    git add filepath/filename OR 
+    Git add *.fileextn OR
+    Git add foldername/
+10.commit the changes
+    git commit -m "Message name"
+11. Push changes to remote
+    git push origin branchname
+    
